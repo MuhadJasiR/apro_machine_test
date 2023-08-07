@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../core/constats/constants.dart';
 
 class RoundCustomCard extends StatelessWidget {
-  RoundCustomCard({super.key, required this.icon, required this.title});
+  const RoundCustomCard({super.key, required this.icon, required this.title});
   final Icon icon;
   final String title;
   @override
@@ -20,7 +20,7 @@ class RoundCustomCard extends StatelessWidget {
             onPressed: () {},
             child: Text(
               title,
-              style: TextStyle(color: kLightPurple),
+              style: const TextStyle(color: kLightPurple),
             ))
       ],
     );

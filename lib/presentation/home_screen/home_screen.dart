@@ -1,6 +1,6 @@
 import 'package:apro_machine_test/core/constats/constants.dart';
 import 'package:apro_machine_test/presentation/home_screen/widget/const_list_values.dart';
-import 'package:apro_machine_test/presentation/home_screen/widget/rount_custom_cards.dart';
+import 'package:apro_machine_test/presentation/home_screen/widget/round_custom_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -123,11 +123,11 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             kHeight(15),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 RoundCustomCard(
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.find_replace_outlined,
                     color: kBlackColor,
                     size: 30,
@@ -135,7 +135,7 @@ class HomeScreen extends StatelessWidget {
                   title: "Transfer",
                 ),
                 RoundCustomCard(
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.ios_share_rounded,
                     color: kBlackColor,
                     size: 30,
@@ -143,7 +143,7 @@ class HomeScreen extends StatelessWidget {
                   title: "Payment",
                 ),
                 RoundCustomCard(
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.monetization_on_outlined,
                     color: kBlackColor,
                     size: 30,
@@ -151,7 +151,7 @@ class HomeScreen extends StatelessWidget {
                   title: "Payout",
                 ),
                 RoundCustomCard(
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.add_circle_outline_outlined,
                     color: kBlackColor,
                     size: 30,
