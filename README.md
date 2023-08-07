@@ -1,16 +1,44 @@
-# apro_machine_test
-
-A new Flutter project.
+# Project Title
+This is a small project just based on a machine test.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Here's a list of things you need to have before you can use the software.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter latest version
+- Dart lastest version
+- Android Studio/ VS Code
+- A device/emulator to run the application
+
+### Installing
+
+A step by step guide that will tell you how to get the development environment up and running.
+
+1. Clone the GitHub repository
+```
+git clone https://github.com/username/project-title.git
+```
+
+2. Go into the project directory
+```
+cd project-title
+```
+
+3. Install the dependencies
+```
+flutter pub get
+```
+
+4. Start the app
+```
+flutter run
+```
+## Built With
+
+- Flutter - The web framework used
+- Dart - The language used
+- Any other software or library used
