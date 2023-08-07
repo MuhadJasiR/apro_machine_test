@@ -1,5 +1,4 @@
 import 'package:apro_machine_test/core/constats/constants.dart';
-import 'package:apro_machine_test/presentation/home_screen/home_screen.dart';
 import 'package:apro_machine_test/presentation/landing_screen/landing_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
